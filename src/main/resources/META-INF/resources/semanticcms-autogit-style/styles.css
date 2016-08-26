@@ -1,0 +1,61 @@
+/*
+ * semanticcms-autogit-style - Default style for SemanticCMS automatic Git.
+ * Copyright (C) 2016  AO Industries, Inc.
+ *     support@aoindustries.com
+ *     7262 Bull Pen Cir
+ *     Mobile, AL 36695
+ *
+ * This file is part of semanticcms-autogit-style.
+ *
+ * semanticcms-autogit-style is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Lesser General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * semanticcms-autogit-style is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public License
+ * along with semanticcms-autogit-style.  If not, see <http://www.gnu.org/licenses/>.
+ */
+.gitStatusSynchronized {
+	/* No special style */
+}
+.gitStatusDisabled {
+	background-color: #808080 !important;
+}
+.gitStatusStarting {
+	background-color: #e0e0e0 !important;
+}
+.gitStatusUncommittedChanges {
+	background-color: #c0c0ff !important;
+}
+.gitStatusUnmerged,
+.gitStatusTimeout,
+.gitStatusPullFailed,
+.gitStatusPushFailed,
+.gitStatusAjaxError /* Client-side only */ {
+	background-color: #ffc0c0 !important;
+}
+.gitChangeIgnored {
+	color: #c0c0c0;
+	text-decoration: line-through;
+}
+.gitChangeUnchanged {
+	/* No special style */
+}
+.gitChangeAdded {
+	color: #008000;
+}
+.gitChangeModified {
+	color: #0000c0;
+}
+.gitChangeDeleted {
+	color: #c0c0c0;
+}
+.gitChangeUnmerged {
+	/*color: #c00000;*/
+	background-color: #ffc0c0 !important;
+}
