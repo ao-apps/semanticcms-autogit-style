@@ -20,42 +20,42 @@
  * You should have received a copy of the GNU Lesser General Public License
  * along with semanticcms-autogit-style.  If not, see <http://www.gnu.org/licenses/>.
  */
-.gitStatusSynchronized {
+.semanticcms-autogit-state-synchronized {
 	/* No special style */
 }
-.gitStatusDisabled {
+.semanticcms-autogit-state-disabled {
 	background-color: #808080 !important;
 }
-.gitStatusStarting {
+.semanticcms-autogit-state-starting {
 	background-color: #e0e0e0 !important;
 }
-.gitStatusUncommittedChanges {
+.semanticcms-autogit-state-uncommitted-changes {
 	background-color: #c0c0ff !important;
 }
-.gitStatusUnmerged,
-.gitStatusTimeout,
-.gitStatusPullFailed,
-.gitStatusPushFailed,
-.gitStatusAjaxError /* Client-side only */ {
+.semanticcms-autogit-state-unmerged,
+.semanticcms-autogit-state-timeout,
+.semanticcms-autogit-state-pull-failed,
+.semanticcms-autogit-state-push-failed,
+.semanticcms-autogit-state-ajax-error /* Client-side only */ {
 	background-color: #ffc0c0 !important;
 }
-.gitChangeIgnored {
+.semanticcms-autogit-change-ignored {
 	color: #c0c0c0;
 	text-decoration: line-through;
 }
-.gitChangeUnchanged {
+.semanticcms-autogit-change-unchanged {
 	/* No special style */
 }
-.gitChangeAdded {
+.semanticcms-autogit-change-added {
 	color: #008000;
 }
-.gitChangeModified {
+.semanticcms-autogit-change-modified {
 	color: #0000c0;
 }
-.gitChangeDeleted {
+.semanticcms-autogit-change-deleted {
 	color: #c0c0c0;
 }
-.gitChangeUnmerged {
+.semanticcms-autogit-change-unmerged {
 	/*color: #c00000;*/
 	background-color: #ffc0c0 !important;
 }
