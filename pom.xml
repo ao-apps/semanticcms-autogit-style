@@ -32,7 +32,7 @@ along with semanticcms-autogit-style.  If not, see <http://www.gnu.org/licenses 
 
 	<groupId>com.semanticcms</groupId>
 	<artifactId>semanticcms-autogit-style</artifactId>
-	<version>1.2-SNAPSHOT</version>
+	<version>1.2</version>
 	<packaging>jar</packaging>
 
 	<name>SemanticCMS AutoGit Style</name>
@@ -43,7 +43,7 @@ along with semanticcms-autogit-style.  If not, see <http://www.gnu.org/licenses 
 		<connection>scm:git:git://github.com/aoindustries/semanticcms-autogit-style.git</connection>
 		<developerConnection>scm:git:git@github.com:aoindustries/semanticcms-autogit-style.git</developerConnection>
 		<url>http://github.com/aoindustries/semanticcms-autogit-style</url>
-		<tag>HEAD</tag>
+		<tag>semanticcms-autogit-style-1.2</tag>
 	</scm>
 
 	<dependencies>
