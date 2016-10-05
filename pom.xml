@@ -86,7 +86,7 @@ along with semanticcms-autogit-style.  If not, see <http://www.gnu.org/licenses 
 		<dependency>
 			<groupId>com.semanticcms</groupId>
 			<artifactId>semanticcms-autogit-view</artifactId>
-			<version>1.3-SNAPSHOT</version>
+			<version>1.3.0</version>
 			<optional>true</optional>
 		</dependency>
 		<dependency>
