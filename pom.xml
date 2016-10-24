@@ -38,9 +38,6 @@ along with semanticcms-autogit-style.  If not, see <http://www.gnu.org/licenses 
 	<properties>
 		<bookPath>/autogit/style</bookPath>
 		<shortTitle>Style</shortTitle>
-		<javadoc.breadcrumbs><![CDATA[<a target="_top" href="${project.parent.parent.url}">${project.parent.parent.name}</a>
-/ <a target="_top" href="${project.parent.url}">AutoGit</a>
-/ <a target="_top" href="${project.url}">${shortTitle}</a>]]></javadoc.breadcrumbs>
 		<description.html><![CDATA[Default style for <a target="_top" href="https://semanticcms.com/autogit/">SemanticCMS automatic Git</a>.]]></description.html>
 	</properties>
 
