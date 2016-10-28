@@ -36,7 +36,7 @@ along with semanticcms-autogit-style.  If not, see <http://www.gnu.org/licenses 
 	>
 		<core:child page="apidocs/index.jspx" />
 		<p>
-			Default style for <core:link page="/index.jspx">SemanticCMS automatic Git</core:link>.
+			Default style for <core:link book="/autogit" page="/index.jspx">SemanticCMS automatic Git</core:link>.
 		</p>
 		<section:section label="Project Links">
 			<ul>
