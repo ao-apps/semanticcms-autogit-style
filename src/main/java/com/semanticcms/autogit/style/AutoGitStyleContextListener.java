@@ -1,6 +1,6 @@
 /*
  * semanticcms-autogit-style - Default style for SemanticCMS automatic Git.
- * Copyright (C) 2016  AO Industries, Inc.
+ * Copyright (C) 2016, 2017  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -22,19 +22,19 @@
  */
 package com.semanticcms.autogit.style;
 
-import com.semanticcms.core.servlet.SemanticCMS;
+import com.semanticcms.core.renderer.html.HtmlRenderer;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
-@WebListener("Registers the styles for AutoGit in SemanticCMS.")
+@WebListener("Registers the styles for AutoGit in HtmlRenderer.")
 public class AutoGitStyleContextListener implements ServletContextListener {
 
 	@Override
 	public void contextInitialized(ServletContextEvent event) {
-		SemanticCMS semanticCMS = SemanticCMS.getInstance(event.getServletContext());
+		HtmlRenderer htmlRenderer = HtmlRenderer.getInstance(event.getServletContext());
 		// Add our CSS file
-		semanticCMS.addCssLink("/semanticcms-autogit-style/styles.css");
+		htmlRenderer.addCssLink("/semanticcms-autogit-style/styles.css");
 	}
 
 	@Override
