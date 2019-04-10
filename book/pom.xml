@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 semanticcms-autogit-style - Default style for SemanticCMS automatic Git.
-Copyright (C) 2016, 2017  AO Industries, Inc.
+Copyright (C) 2016, 2017, 2019  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -42,7 +42,7 @@ along with semanticcms-autogit-style.  If not, see <http://www.gnu.org/licenses 
 		<documented.artifactId>semanticcms-autogit-style</documented.artifactId>
 		<documented.javaVersion>1.6</documented.javaVersion>
 		<documented.javac.link.javaApi>${javac.link.javaApi.jdk16}</documented.javac.link.javaApi>
-		<documented.name>SemanticCMS AutoGit Style</documented.name>
+		<documented.name>SemanticCMS 1 AutoGit Style</documented.name>
 		<documented.shortTitle>Style</documented.shortTitle>
 		<documented.url>https://semanticcms.com/autogit/style/</documented.url>
 		<documented.description>Default style for SemanticCMS automatic Git.</documented.description>
