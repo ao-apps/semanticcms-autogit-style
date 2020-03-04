@@ -22,19 +22,21 @@
  */
 package com.semanticcms.autogit.style;
 
-import com.semanticcms.core.renderer.html.HtmlRenderer;
+import com.aoindustries.web.resources.registry.Style;
+import com.aoindustries.web.resources.servlet.RegistryEE;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
-@WebListener("Registers the styles for AutoGit in HtmlRenderer.")
-public class Initializer implements ServletContextListener {
+@WebListener("Registers the styles for AutoGit in RegistryEE.")
+public class AutoGitStyle implements ServletContextListener {
+
+	public static final Style SEMANTICCMS_AUTOGIT = new Style("/semanticcms-autogit-style/semanticcms-autogit.css");
 
 	@Override
 	public void contextInitialized(ServletContextEvent event) {
-		HtmlRenderer htmlRenderer = HtmlRenderer.getInstance(event.getServletContext());
 		// Add our CSS file
-		htmlRenderer.addCssLink("/semanticcms-autogit-style/semanticcms-autogit.css");
+		RegistryEE.get(event.getServletContext()).global.styles.add(SEMANTICCMS_AUTOGIT);
 	}
 
 	@Override
