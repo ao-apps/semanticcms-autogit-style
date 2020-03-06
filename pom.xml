@@ -72,7 +72,6 @@ along with semanticcms-autogit-style.  If not, see <http://www.gnu.org/licenses 
 								<!-- Direct -->
 								<link>https://aoindustries.com/ao-web-resources/registry/apidocs/</link>
 								<link>https://aoindustries.com/ao-web-resources/servlet/apidocs/</link>
-								<link>https://semanticcms.com/autogit/view/apidocs/</link>
 							</links>
 						</configuration>
 					</plugin>
@@ -96,9 +95,6 @@ along with semanticcms-autogit-style.  If not, see <http://www.gnu.org/licenses 
 			<dependency>
 				<groupId>com.aoindustries</groupId><artifactId>ao-web-resources-servlet</artifactId><version>0.1.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
-			<dependency>
-				<groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-view</artifactId><version>2.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
-			</dependency>
 		</dependencies>
 	</dependencyManagement>
 
@@ -114,10 +110,6 @@ along with semanticcms-autogit-style.  If not, see <http://www.gnu.org/licenses 
 		</dependency>
 		<dependency>
 			<groupId>com.aoindustries</groupId><artifactId>ao-web-resources-servlet</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>com.semanticcms</groupId><artifactId>semanticcms-autogit-view</artifactId>
-			<optional>true</optional>
 		</dependency>
 	</dependencies>
 </project>
