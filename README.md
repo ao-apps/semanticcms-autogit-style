@@ -30,7 +30,7 @@ Default style for [SemanticCMS automatic Git](https://github.com/aoindustries/se
 * [Project Home](https://semanticcms.com/autogit/style/)
 * [Changelog](https://semanticcms.com/autogit/style/changelog)
 * [API Docs](https://semanticcms.com/autogit/style/apidocs/)
-* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.semanticcms%22%20AND%20a:%22semanticcms-autogit-style%22)
+* [Maven Central Repository](https://search.maven.org/artifact/com.semanticcms/semanticcms-autogit-style)
 * [GitHub](https://github.com/aoindustries/semanticcms-autogit-style)
 
 ## Contact Us
