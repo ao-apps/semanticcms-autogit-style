@@ -35,8 +35,7 @@ along with semanticcms-autogit-style.  If not, see <http://www.gnu.org/licenses 
 	<properties>
 		<javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a>
 / <a target="${javadoc.target}" href="https://semanticcms.com/autogit/">AutoGit</a>
-/ <a target="${javadoc.target}" href="${project.url}">${shortTitle}</a>]]></javadoc.breadcrumbs>
-		<shortTitle>Style</shortTitle>
+/ <a target="${javadoc.target}" href="${project.url}">Style</a>]]></javadoc.breadcrumbs>
 		<description.html><![CDATA[Default style for <a target="${javadoc.target}" href="https://semanticcms.com/autogit/">SemanticCMS automatic Git</a>.]]></description.html>
 	</properties>
 
@@ -94,14 +93,14 @@ along with semanticcms-autogit-style.  If not, see <http://www.gnu.org/licenses 
 									<artifactItems>
 										<!-- Direct -->
 										<artifactItem>
-											<groupId>com.aoindustries</groupId><artifactId>ao-web-resources-registry</artifactId><classifier>javadoc</classifier>
+											<groupId>com.aoapps</groupId><artifactId>ao-web-resources-registry</artifactId><classifier>javadoc</classifier>
 											<includes>element-list, package-list</includes>
-											<outputDirectory>${project.build.directory}/offlineLinks/com.aoindustries/ao-web-resources-registry</outputDirectory>
+											<outputDirectory>${project.build.directory}/offlineLinks/com.aoapps/ao-web-resources-registry</outputDirectory>
 										</artifactItem>
 										<artifactItem>
-											<groupId>com.aoindustries</groupId><artifactId>ao-web-resources-servlet</artifactId><classifier>javadoc</classifier>
+											<groupId>com.aoapps</groupId><artifactId>ao-web-resources-servlet</artifactId><classifier>javadoc</classifier>
 											<includes>element-list, package-list</includes>
-											<outputDirectory>${project.build.directory}/offlineLinks/com.aoindustries/ao-web-resources-servlet</outputDirectory>
+											<outputDirectory>${project.build.directory}/offlineLinks/com.aoapps/ao-web-resources-servlet</outputDirectory>
 										</artifactItem>
 										<!-- ao-javadoc-offline: <groupId>javax.servlet</groupId><artifactId>javax.servlet-api</artifactId> -->
 									</artifactItems>
@@ -115,23 +114,23 @@ along with semanticcms-autogit-style.  If not, see <http://www.gnu.org/licenses 
 							<offlineLinks>
 								<!-- Direct -->
 								<offlineLink>
-									<url>https://aoindustries.com/ao-web-resources/registry/apidocs/</url>
-									<location>${project.build.directory}/offlineLinks/com.aoindustries/ao-web-resources-registry</location>
+									<url>https://oss.aoapps.com/web-resources/registry/apidocs/</url>
+									<location>${project.build.directory}/offlineLinks/com.aoapps/ao-web-resources-registry</location>
 								</offlineLink>
 								<offlineLink>
-									<url>https://aoindustries.com/ao-web-resources/servlet/apidocs/</url>
-									<location>${project.build.directory}/offlineLinks/com.aoindustries/ao-web-resources-servlet</location>
+									<url>https://oss.aoapps.com/web-resources/servlet/apidocs/</url>
+									<location>${project.build.directory}/offlineLinks/com.aoapps/ao-web-resources-servlet</location>
 								</offlineLink>
 								<!-- Java EE: <groupId>javax.servlet</groupId><artifactId>javax.servlet-api</artifactId> -->
 								<!-- Java SE -->
 								<offlineLink>
 									<url>${javadoc.link.javase}</url>
-									<location>${project.build.directory}/offlineLinks/com/aoindustries/javadoc/offline/javase/${javase.release}</location>
+									<location>${project.build.directory}/offlineLinks/com/aoapps/javadoc/offline/javase/${javase.release}</location>
 								</offlineLink>
 								<!-- Java EE -->
 								<offlineLink>
 									<url>${javadoc.link.javaee}</url>
-									<location>${project.build.directory}/offlineLinks/com/aoindustries/javadoc/offline/javaee/${javaee.version}</location>
+									<location>${project.build.directory}/offlineLinks/com/aoapps/javadoc/offline/javaee/${javaee.version}</location>
 								</offlineLink>
 							</offlineLinks>
 						</configuration>
@@ -145,28 +144,28 @@ along with semanticcms-autogit-style.  If not, see <http://www.gnu.org/licenses 
 		<dependencies>
 			<!-- Direct -->
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-web-resources-registry</artifactId><version>0.4.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.aoapps</groupId><artifactId>ao-web-resources-registry</artifactId><version>0.4.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-web-resources-servlet</artifactId><version>0.4.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.aoapps</groupId><artifactId>ao-web-resources-servlet</artifactId><version>0.4.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<!-- javaee-web-api-bom: <groupId>javax.servlet</groupId><artifactId>javax.servlet-api</artifactId> -->
 			<!-- Transitive -->
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-collections</artifactId><version>1.2.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.aoapps</groupId><artifactId>ao-collections</artifactId><version>1.2.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-lang</artifactId><version>4.17.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.aoapps</groupId><artifactId>ao-hodgepodge</artifactId><version>4.9.2-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>ao-tempfiles</artifactId><version>2.0.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.aoapps</groupId><artifactId>ao-lang</artifactId><version>4.17.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>aocode-public</artifactId><version>4.9.2-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.aoapps</groupId><artifactId>ao-tempfiles</artifactId><version>2.0.1-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 			</dependency>
 			<!-- BOM -->
 			<dependency>
-				<groupId>com.aoindustries</groupId><artifactId>javaee-web-api-bom</artifactId><version>7.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
+				<groupId>com.aoapps</groupId><artifactId>javaee-web-api-bom</artifactId><version>7.0.0-SNAPSHOT<!-- ${POST-SNAPSHOT} --></version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
@@ -176,10 +175,10 @@ along with semanticcms-autogit-style.  If not, see <http://www.gnu.org/licenses 
 	<dependencies>
 		<!-- Direct -->
 		<dependency>
-			<groupId>com.aoindustries</groupId><artifactId>ao-web-resources-registry</artifactId>
+			<groupId>com.aoapps</groupId><artifactId>ao-web-resources-registry</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>com.aoindustries</groupId><artifactId>ao-web-resources-servlet</artifactId>
+			<groupId>com.aoapps</groupId><artifactId>ao-web-resources-servlet</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId><artifactId>javax.servlet-api</artifactId>
