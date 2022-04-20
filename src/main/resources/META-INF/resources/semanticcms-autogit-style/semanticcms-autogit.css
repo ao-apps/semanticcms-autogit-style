@@ -1,6 +1,6 @@
 /*
  * semanticcms-autogit-style - Default style for SemanticCMS automatic Git.
- * Copyright (C) 2016  AO Industries, Inc.
+ * Copyright (C) 2016, 2022  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -21,41 +21,41 @@
  * along with semanticcms-autogit-style.  If not, see <https://www.gnu.org/licenses/>.
  */
 .semanticcms-autogit-state-synchronized {
-	/* No special style */
+  /* No special style */
 }
 .semanticcms-autogit-state-disabled {
-	background-color: #808080 !important;
+  background-color: #808080 !important;
 }
 .semanticcms-autogit-state-starting {
-	background-color: #e0e0e0 !important;
+  background-color: #e0e0e0 !important;
 }
 .semanticcms-autogit-state-uncommitted-changes {
-	background-color: #c0c0ff !important;
+  background-color: #c0c0ff !important;
 }
 .semanticcms-autogit-state-unmerged,
 .semanticcms-autogit-state-timeout,
 .semanticcms-autogit-state-pull-failed,
 .semanticcms-autogit-state-push-failed,
 .semanticcms-autogit-state-ajax-error /* Client-side only */ {
-	background-color: #ffc0c0 !important;
+  background-color: #ffc0c0 !important;
 }
 .semanticcms-autogit-change-ignored {
-	color: #c0c0c0;
-	text-decoration: line-through;
+  color: #c0c0c0;
+  text-decoration: line-through;
 }
 .semanticcms-autogit-change-unchanged {
-	/* No special style */
+  /* No special style */
 }
 .semanticcms-autogit-change-added {
-	color: #008000;
+  color: #008000;
 }
 .semanticcms-autogit-change-modified {
-	color: #0000c0;
+  color: #0000c0;
 }
 .semanticcms-autogit-change-deleted {
-	color: #c0c0c0;
+  color: #c0c0c0;
 }
 .semanticcms-autogit-change-unmerged {
-	/*color: #c00000;*/
-	background-color: #ffc0c0 !important;
+  /*color: #c00000;*/
+  background-color: #ffc0c0 !important;
 }
