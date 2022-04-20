@@ -33,23 +33,23 @@ import javax.servlet.annotation.WebListener;
 @WebListener("Registers the styles for AutoGit in RegistryEE.")
 public class AutoGitStyle implements ServletContextListener {
 
-	public static final Group.Name RESOURCE_GROUP = new Group.Name("semanticcms-autogit-style");
+  public static final Group.Name RESOURCE_GROUP = new Group.Name("semanticcms-autogit-style");
 
-	// TODO: Change to Group.Name once we have group-level ordering
-	public static final Style SEMANTICCMS_AUTOGIT = new Style("/semanticcms-autogit-style/semanticcms-autogit.css");
+  // TODO: Change to Group.Name once we have group-level ordering
+  public static final Style SEMANTICCMS_AUTOGIT = new Style("/semanticcms-autogit-style/semanticcms-autogit.css");
 
-	@Override
-	public void contextInitialized(ServletContextEvent event) {
-		// Add our CSS file
-		RegistryEE.Application.get(event.getServletContext())
-			.activate(RESOURCE_GROUP) // TODO: Activate as-needed
-			.getGroup(RESOURCE_GROUP)
-			.styles
-			.add(SEMANTICCMS_AUTOGIT);
-	}
+  @Override
+  public void contextInitialized(ServletContextEvent event) {
+    // Add our CSS file
+    RegistryEE.Application.get(event.getServletContext())
+      .activate(RESOURCE_GROUP) // TODO: Activate as-needed
+      .getGroup(RESOURCE_GROUP)
+      .styles
+      .add(SEMANTICCMS_AUTOGIT);
+  }
 
-	@Override
-	public void contextDestroyed(ServletContextEvent event) {
-		// Do nothing
-	}
+  @Override
+  public void contextDestroyed(ServletContextEvent event) {
+    // Do nothing
+  }
 }
