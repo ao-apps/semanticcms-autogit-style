@@ -42,7 +42,7 @@ public class AutoGitStyle implements ServletContextListener {
   public void contextInitialized(ServletContextEvent event) {
     // Add our CSS file
     RegistryEE.Application.get(event.getServletContext())
-        .activate(RESOURCE_GROUP) // TODO: Activate as-needed
+        .activate(RESOURCE_GROUP)// TODO: Activate as-needed
         .getGroup(RESOURCE_GROUP)
         .styles
         .add(SEMANTICCMS_AUTOGIT);
