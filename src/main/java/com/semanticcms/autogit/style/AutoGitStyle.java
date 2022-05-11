@@ -30,6 +30,9 @@ import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
+/**
+ * Registers the styles for AutoGit in {@link RegistryEE}.
+ */
 @WebListener("Registers the styles for AutoGit in RegistryEE.")
 public class AutoGitStyle implements ServletContextListener {
 
@@ -44,8 +47,8 @@ public class AutoGitStyle implements ServletContextListener {
     RegistryEE.Application.get(event.getServletContext())
         .activate(RESOURCE_GROUP)// TODO: Activate as-needed
         .getGroup(RESOURCE_GROUP)
-        .styles
-        .add(SEMANTICCMS_AUTOGIT);
+            .styles
+            .add(SEMANTICCMS_AUTOGIT);
   }
 
   @Override
