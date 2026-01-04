@@ -1,6 +1,6 @@
 /*
  * semanticcms-autogit-style - Default style for SemanticCMS automatic Git.
- * Copyright (C) 2016, 2017, 2020, 2021, 2022  AO Industries, Inc.
+ * Copyright (C) 2016, 2017, 2020, 2021, 2022, 2025, 2026  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -26,9 +26,9 @@ package com.semanticcms.autogit.style;
 import com.aoapps.web.resources.registry.Group;
 import com.aoapps.web.resources.registry.Style;
 import com.aoapps.web.resources.servlet.RegistryEE;
-import javax.servlet.ServletContextEvent;
-import javax.servlet.ServletContextListener;
-import javax.servlet.annotation.WebListener;
+import jakarta.servlet.ServletContextEvent;
+import jakarta.servlet.ServletContextListener;
+import jakarta.servlet.annotation.WebListener;
 
 /**
  * Registers the styles for AutoGit in {@link RegistryEE}.
