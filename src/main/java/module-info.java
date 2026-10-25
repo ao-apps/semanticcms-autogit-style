@@ -21,9 +21,10 @@
  * along with semanticcms-autogit-style.  If not, see <https://www.gnu.org/licenses/>.
  */
 module com.semanticcms.autogit.style {
-  exports com.semanticcms.autogit.style;
   // Direct
   requires com.aoapps.web.resources.registry; // <groupId>com.aoapps</groupId><artifactId>ao-web-resources-registry</artifactId>
   requires com.aoapps.web.resources.servlet; // <groupId>com.aoapps</groupId><artifactId>ao-web-resources-servlet</artifactId>
   requires jakarta.servlet; // <groupId>jakarta.servlet</groupId><artifactId>jakarta.servlet-api</artifactId>
+
+  exports com.semanticcms.autogit.style;
 }
